@@ -4,9 +4,13 @@
   "private": true,
   "author": "Atsushi Tatsuma",
   "scripts": {
+    "prepare": "husky",
     "lint": "textlint 'src/*.adoc'"
   },
   "devDependencies": {
+    "@commitlint/cli": "^21.2.1",
+    "@commitlint/config-conventional": "^21.2.0",
+    "husky": "^9.1.7",
     "textlint": "^15.7.1",
     "textlint-filter-rule-allowlist": "^4.0.0",
     "textlint-filter-rule-comments": "^1.2.2",
