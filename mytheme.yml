@@ -1,0 +1,25 @@
+extends: default
+# extends: default-with-font-fallbacks
+# extends: default-for-print-with-fallback-font
+font:
+  catalog:
+    merge: true
+    GenShinGothic:
+      normal: GenShinGothic-Regular.ttf
+      italic: GenShinGothic-Regular.ttf
+      bold: GenShinGothic-Bold.ttf
+      bold_italic: GenShinGothic-Bold.ttf
+    GenShinGothicMonospace: GenShinGothic-Monospace-Regular.ttf
+base:
+  align: left
+  font-family: GenShinGothic
+  line-height-length: 16
+  line-height: $base-line-height-length / $base-font-size
+codespan:
+  font-family: GenShinGothicMonospace
+kbd:
+  font-family: $codespan-font-family
+code:
+  font-family: $codespan-font-family
+prose:
+  text-indent: $base-font-size

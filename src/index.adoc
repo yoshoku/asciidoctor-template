@@ -1,0 +1,21 @@
+= Asciidoctorのテンプレート
+Atsushi Tatsuma
+v0.1.0, 2024-01-01
+:toc: left
+:sectnums:
+:source-highlighter: rouge
+:rouge-style: github
+:icons: font
+:xrefstyle: short
+:stem: latexmath
+:table-caption: 表
+:figure-caption: 図
+:imagesdir: imgs
+:docinfo: shared
+// for asciidoctor-pdf
+:doctype: book
+:scripts: cjk
+:pdf-theme: mytheme.yml
+:pdf-fontsdir: genshin;GEM_FONTS_DIR
+
+include::chapter01.adoc[]

@@ -1,0 +1,104 @@
+{
+  "plugins": {
+    "asciidoctor": true
+  },
+  "filters": {
+    "comments": true,
+    "allowlist": {
+      "allow": [
+      ]
+    }
+  },
+  "rules": {
+    "preset-japanese": {
+      "sentence-length": false,
+      "max-ten": {
+        "max": 5
+      },
+      "no-doubled-joshi": {
+        "allow": [
+          "は"
+        ]
+      }
+    },
+    "preset-ja-technical-writing": {
+      "ja-no-mixed-period": {
+        "allowPeriodMarks": [
+          "]"
+        ]
+      },
+      "sentence-length": false,
+      "max-kanji-continuous-len": {
+        "max": 6,
+        "allow": [
+          "複合代入演算子",
+          "単項算術演算子",
+          "間接参照演算子"
+        ]
+      },
+      "no-unmatched-pair": false,
+      "no-exclamation-question-mark": false,
+      "max-ten": false,
+      "max-comma": false,
+      "ja-unnatural-alphabet": {
+        "allow": [
+          "aとbを",
+          "aからbを",
+          "aにbを",
+          "aをbで",
+          "aがbより",
+          "aの値",
+          "aに割り当てる",
+          "/aが[真|偽]/",
+          "/aとbが等し[い|くない]/",
+          "/aがb[以上|以下]/",
+          "/aとb[がともに|のどちらかが]/",
+          "/変数[a-z]/",
+          "/値[a-c]/",
+          "/[A-C]の処理/"
+        ]
+      },
+      "no-doubled-joshi": {
+        "allow": [
+          "は"
+        ]
+      }
+    },
+    "preset-jtf-style": {
+      "1.2.1.句点(。)と読点(、)": false,
+      "3.1.1.全角文字と半角文字の間": false,
+      "3.3.かっこ類と隣接する文字の間のスペースの有無": false,
+      "4.2.6.ハイフン(-)": false,
+      "4.2.7.コロン(：)": false,
+      "4.2.8.セミコロン(;)": false,
+      "4.3.1.丸かっこ（）": false,
+      "4.3.2.大かっこ［］": false,
+      "4.3.5.二重引用符": false,
+      "4.3.7.山かっこ<>": false
+    },
+    "preset-ja-spacing": {
+      "ja-space-between-half-and-full-width": {
+        "allows": [
+          "goto ラベル名"
+        ]
+      },
+      "ja-no-space-around-parentheses": false
+    },
+    "preset-ja-engineering-paper": {
+      "ja-hiragana-fukushi" : false,
+      "prh": false,
+      "unify-kuten-and-touten": {
+        "kuten": "。",
+        "touten": "、"
+      }
+    },
+    "joyo-kanji": false,
+    "no-hoso-kinshi-yogo": true,
+    "ja-no-inappropriate-words": true,
+    "ja-overlooked-typo": true,
+    "general-novel-style-ja": {
+      "chars_leading_paragraph": false,
+      "max_arabic_numeral_digits": false
+    }
+  }
+}

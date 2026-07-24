@@ -1,0 +1,26 @@
+{
+  "name": "asciidoctor-template",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Atsushi Tatsuma",
+  "scripts": {
+    "lint": "textlint 'src/*.adoc'"
+  },
+  "devDependencies": {
+    "textlint": "^15.7.1",
+    "textlint-filter-rule-allowlist": "^4.0.0",
+    "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-plugin-asciidoctor": "^1.1.0",
+    "textlint-rule-general-novel-style-ja": "^1.3.0",
+    "textlint-rule-ja-no-inappropriate-words": "^2.0.0",
+    "textlint-rule-ja-overlooked-typo": "^0.0.1",
+    "textlint-rule-ja-unnatural-alphabet": "^2.0.1",
+    "textlint-rule-joyo-kanji": "^0.0.2",
+    "textlint-rule-no-hoso-kinshi-yogo": "^1.3.2",
+    "textlint-rule-preset-ja-engineering-paper": "^1.0.4",
+    "textlint-rule-preset-ja-spacing": "^3.0.2",
+    "textlint-rule-preset-ja-technical-writing": "^12.0.2",
+    "textlint-rule-preset-japanese": "^10.0.4",
+    "textlint-rule-preset-jtf-style": "^3.0.2"
+  }
+}
